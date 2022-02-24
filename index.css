@@ -29,7 +29,14 @@ h1{
     transform: translate(-50%, -50%);
     position: relative;
     position: absolute;
-    color: aliceblue;
     position: absolute;
+    font-size: 80px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+h1:hover{
     font-size: 90px;
+    background-color: #00f8ec5f;
 }
