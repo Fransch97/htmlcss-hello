@@ -10,14 +10,26 @@ body{
     
 }
 div{
-    position: relative;
     height: 100vh;
+    align-items: center;
 }
-h1{
-    color: aliceblue;
-    position: absolute;
+.rgb{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
+    background: linear-gradient(100deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#ff0000,#fb0094,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#ff0000,#fb0094);
+   
+}
+h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    position: absolute;
+    color: aliceblue;
+    position: absolute;
+    font-size: 90px;
 }
